@@ -1,0 +1,52 @@
+{
+  "name": "expo-module-template",
+  "version": "8.4.0",
+  "description": "ExpoModuleTemplate standalone module",
+  "main": "build/ModuleTemplate.js",
+  "types": "build/ModuleTemplate.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-module-template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/expo.git",
+    "directory": "packages/expo-module-template"
+  },
+  "bugs": {
+    "url": "https://github.com/expo/expo/issues"
+  },
+  "author": "650 Industries, Inc.",
+  "license": "MIT",
+  "homepage": "https://docs.expo.io/versions/latest/sdk/module-template",
+  "unimodulePeerDependencies": {
+    "@unimodules/core": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-universe": "^4.0.0",
+    "expo-module-scripts": "^1.2.0",
+    "jest-expo": "^38.0.2",
+    "prettier": "^2.1.1",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  },
+  "jest": {
+    "preset": "expo-module-scripts"
+  }
+}
